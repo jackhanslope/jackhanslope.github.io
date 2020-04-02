@@ -1,0 +1,47 @@
+@font-face{
+	font-family: superclarendon;
+	src:url(https://use.typekit.net/af/43af09/00000000000000000000d667/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff2"),url(https://use.typekit.net/af/43af09/00000000000000000000d667/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("woff"),url(https://use.typekit.net/af/43af09/00000000000000000000d667/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3) format("opentype");
+}
+	 
+
+.split {
+	height: 50%; 
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	font-size: 5rem;
+	text-align: center;
+}
+
+.top {
+	top: 0;
+	left:0;
+}
+
+.bottom {
+	bottom: 0;
+	left:0;
+}
+
+.focus {
+	background: #130731;
+	color: #403075;
+}
+
+.blur {
+	background: #403075;
+	color: #130731;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+}
+
+.centered span {
+	font-family: superclarendon, serif;
+	font-style: italic;
+	font-weight: 600;
+}
