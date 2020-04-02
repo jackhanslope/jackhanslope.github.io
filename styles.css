@@ -13,6 +13,17 @@
 	text-align: center;
 }
 
+.four-oh-four {
+	height: 100%; 
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	font-size: 5rem;
+	text-align: center;
+}
+
+
+
 .top {
 	top: 0;
 	left:0;
